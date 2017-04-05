@@ -98,6 +98,15 @@ canvas {
     transform: scale(2, 2);
 }
 
+/* mirror video */
+
+video {
+    -ms-transform: scale(-2, 2); /* IE 9 */
+    -webkit-transform: scale(-2, 2); /* Safari */
+    transform: scale(-2, 2);
+}
+
+
 .recorder-snapshot {
     position: absolute;
     z-index: 3;

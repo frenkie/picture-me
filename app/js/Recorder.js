@@ -275,7 +275,11 @@ export default Vue.component( 'recorder', {
                 recordCanvas.height = highQualityVideo.height;
 
                 recordContext.clearRect( 0, 0, recordCanvas.width, recordCanvas.height );
-                recordContext.drawImage( highQualityVideo, 0, 0, recordCanvas.width, recordCanvas.height );
+
+                recordContext.save();
+                recordContext.scale( -1, 1 );
+                recordContext.drawImage( highQualityVideo, 0, 0, recordCanvas.width * -1, recordCanvas.height);
+                recordContext.restore();
 
                 drawFrame( recordCanvas, recordContext );
 

@@ -1,6 +1,6 @@
 # picture-me
 Pimp your party with a themed picture guestbook. Get your friends in front of the camera 
-and get randomized photos to fit your heads in. Press the big button and voila, 
+and get randomized photos to fit your heads (and body) in. Press the big button and voila, 
 an instant guestbook memory!
 
 
