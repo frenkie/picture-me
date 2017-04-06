@@ -4,7 +4,7 @@ import recorderTemplate from '../templates/recorder.vue!text';
 import tracking from 'tracking/build/tracking-min.js';
 import Vue from 'vue';
 
-var imageFrames = [ 'frame1.png', 'frame2.png', 'frame3.png', 'frame4.png', 'frame5.png', 'frame6.png', 'frame7.png' ];
+var imageFrames = [ 'frame1.png', 'frame2.png', 'frame3.png', 'frame4.png', 'frame5.png', 'frame6.png', 'frame7.png', 'frame8.png', 'frame9.png', 'frame10.png', 'frame11.png', 'frame12.png' ];
 var imageFramesLoaded;
 var imageFramesRandomisedIndex = -1;
 
